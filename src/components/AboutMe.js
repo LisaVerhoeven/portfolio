@@ -1,6 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import lisa from '../Lisa.png';
+import lisa from '../assets/Lisa.png';
 
 import './AboutMe.scss';
 
@@ -39,13 +39,13 @@ const AboutMe = () => {
               <p className="about-wrapper__info-text">
                My name is Lisa Verhoeven (19) and I am from the Netherlands.
                I started coding when I was about 15 years old using Xcode. 
-               In September I will start my double major in Computer Science and Engineering
+               In September 2020 I will start my double major in Computer Science and Engineering
                and Applied Mathematics at the Eindhoven University of Technology.
               </p>
               <p className="about-wrapper__info-text">
                 I have built some personal projects to develop my skills, but I have also 
                 helped local companies, like restaurants, to improve their web applications. You can find a collection of the projects I
-                have built down below. I you want to contact me click the button.
+                have built down below. If you want to contact me click the button.
               </p>
               <span className="d-flex mt-3 ">
                 <a className="cta-btn cta-btn--resume" href="#contact">

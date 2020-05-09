@@ -1,9 +1,10 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Project from './Project.js';
-import Gradient from '../gradientbackground.png';
-import ToDO from '../todo.png';
-import Robofriends from '../robofriends.png';
+import Gradient from '../assets/gradientbackground.png';
+import ToDO from '../assets/todo.png';
+import Robofriends from '../assets/robofriends.png';
+import Netwatch from '../assets/netwatch.png';
 import './Projects.scss';
 
 
@@ -25,6 +26,13 @@ const ProjectList = () => {
 
 				         
 	        {[
+	        	{
+					title: 'Netwatch',
+				 	text: 'This Netflix tool is able to give the newly added movies and series in your country on Netflix and can generate a random output based on the choices a user can decide on like a genre. The frontend is built with React. Next to this, the backend uses an express server that uses an API to get recent data and a PostgreSQL database for the other static data.',
+				 	image: Netwatch,
+				 	live: 'https://netwatch.netlify.app',
+				 	code: 'https://github.com/LisaVerhoeven/netwatch'
+				},
 				{
 					title: 'Robo Friends',
 				 	text: 'Robo Friends uses an API to get user information and has a search box to filter out certain user objects. This was my first React project so I learned the frameworks basics like state during the production of this web app.',

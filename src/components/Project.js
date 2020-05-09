@@ -31,7 +31,7 @@ const Project = ({title, text, image, live, code}) => {
             <Fade right cascade>
               <div>
               <div className="project-wrapper__image">
-                <a href="#!" rel="noopener">
+                <a href={live} rel="noopener">
                 <Tilt className="Tilt" options={{ max : 25 }} >
                   <div className="thumbnail rounded Tilt-inner">
                     <img className="img-fluid" alt="project" src={image} />
