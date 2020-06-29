@@ -5,6 +5,7 @@ import Gradient from '../assets/gradientbackground.png';
 import ToDO from '../assets/todo.png';
 import Robofriends from '../assets/robofriends.png';
 import Netwatch from '../assets/netwatch.png';
+import Ecommerce from '../assets/ecommerce.png';
 import './Projects.scss';
 
 
@@ -26,6 +27,13 @@ const ProjectList = () => {
 
 				         
 	        {[
+	        	{
+					title: 'E-commerce webshop',
+				 	text: 'The goal of this project was to master React. This React webshop is built using React-Router, Hooks, Redux and Redux-Saga and integrates Firebase and the Stripe-API for the backend. Next to this I used styled-components, React Suspence and React Lazy and I transformed the application into a PWA. During the building process I also learned about GraphQl, Apollo and the ContextAPI',
+				 	image: Ecommerce,
+				 	live: 'https://ecomwebshop.herokuapp.com',
+				 	code: 'https://github.com/LisaVerhoeven/e-commerce'
+				},
 	        	{
 					title: 'Netwatch',
 				 	text: 'This Netflix tool is able to give the newly added movies and series in your country on Netflix and can generate a random output based on the choices a user can decide on like a genre. The frontend is built with React. Next to this, the backend uses an express server that uses an API to get recent data and a PostgreSQL database for the other static data.',
