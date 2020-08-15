@@ -29,21 +29,21 @@ const ProjectList = () => {
 	        {[
 	        	{
 					title: 'E-commerce webshop',
-				 	text: 'The goal of this project was to master React. This React webshop is built using React-Router, Hooks, Redux and Redux-Saga and integrates Firebase and the Stripe-API for the backend. Next to this I used styled-components, React Suspence and React Lazy and I transformed the application into a PWA. During the building process I also learned about GraphQl, Apollo and the ContextAPI',
+				 	text: 'The goal of this project was to master React. This React webshop is built using React-Router, Hooks, Redux and Redux-Saga and integrates Firebase and the Stripe-API for the backend. Next to this I used styled-components, React Suspence and React Lazy and I transformed the application into a PWA. During the building process I also learned about GraphQl, Apollo and the ContextAPI.',
 				 	image: Ecommerce,
 				 	live: 'https://ecomwebshop.herokuapp.com',
 				 	code: 'https://github.com/LisaVerhoeven/e-commerce'
 				},
 	        	{
 					title: 'Netwatch',
-				 	text: 'This Netflix tool is able to give the newly added movies and series in your country on Netflix and can generate a random output based on the choices a user can decide on like a genre. The frontend is built with React. Next to this, the backend uses an express server that uses an API to get recent data and a PostgreSQL database for the other static data.',
+				 	text: 'This Netflix tool is able to display the newly added movies and series in your chosen country on Netflix and can generate a random output based on the choices a user made. The front-end is built with React. Next to this, the server built with  Node.js is connected to an API and an PostgreSQL database to retrieve data. ',
 				 	image: Netwatch,
 				 	live: 'https://netwatch.netlify.app',
 				 	code: 'https://github.com/LisaVerhoeven/netwatch'
 				},
 				{
 					title: 'Robo Friends',
-				 	text: 'Robo Friends uses an API to get user information and has a search box to filter out certain user objects. This was my first React project so I learned the frameworks basics like state during the production of this web app.',
+				 	text: 'Robo Friends uses an API to get random robots and has a search box to filter out certain user objects. This was my first React project so I learned the frameworks basics during the production of this web app.',
 				 	image: Robofriends,
 				 	live: 'https://lisaverhoeven.github.io/robofriends',
 				 	code: 'https://github.com/LisaVerhoeven/robofriends'
