@@ -81,5 +81,11 @@
         }
       }
     }
+
+    .btn-wrap {
+      @include respond(tab-port-sm) {
+        justify-content: center;
+      }
+    }
   }
 }

@@ -38,16 +38,16 @@ const AboutMe = () => {
             <div>
               <p className="about-wrapper__info-text">
                My name is Lisa Verhoeven (19) and I am from the Netherlands.
-               I started coding when I was about 15 years old using Xcode. 
-               In currently enrolled in a double major in Computer Science and Engineering
+               I started getting into coding when I was about 15 years old by building my first IOS-app with XCode.
+               I am currently enrolled in a double major in Computer Science and Engineering
                and Applied Mathematics at the Eindhoven University of Technology.
               </p>
               <p className="about-wrapper__info-text">
                 I have built some personal projects to develop my skills, but I have also 
-                helped local companies, like restaurants, to improve their web applications. You can find a collection of the projects I
+                helped local companies to improve their web applications and online presence. You can find a collection of the projects I
                 have built down below. If you want to contact me click the button!
               </p>
-              <span className="d-flex mt-3 ">
+              <span className="d-flex mt-3 btn-wrap">
                 <a className="cta-btn cta-btn--resume" href="#contact">
                   Contact
                 </a>
