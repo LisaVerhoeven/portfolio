@@ -6,6 +6,7 @@ import ToDO from '../assets/todo.png';
 import Robofriends from '../assets/robofriends.png';
 import Netwatch from '../assets/netwatch.png';
 import Ecommerce from '../assets/ecommerce.png';
+import QuoteGenerator from '../assets/quote-generator.png';
 import './Projects.scss';
 
 
@@ -47,6 +48,13 @@ const ProjectList = () => {
 				 	image: Robofriends,
 				 	live: 'https://lisaverhoeven.github.io/robofriends',
 				 	code: 'https://github.com/LisaVerhoeven/robofriends'
+				},
+				{
+					title: 'Quote Generator',
+					text: 'Going back to the basics and stepping away from React to focus a bit more on the core concepts of Html, Css and Javascript.',
+					image: QuoteGenerator,
+					live: 'https://lisaverhoeven.github.io/quote-generator/',
+					code: 'https://github.com/LisaVerhoeven/quote-generator'
 				},
 				{
 					title: 'Gradient Background Generator',
