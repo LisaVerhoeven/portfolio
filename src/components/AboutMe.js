@@ -37,15 +37,13 @@ const AboutMe = () => {
             <Fade right cascade>
             <div>
               <p className="about-wrapper__info-text">
-               My name is Lisa Verhoeven (19) and I am from the Netherlands.
+               My name is Lisa Verhoeven (20) and I am from the Netherlands.
                I started getting into coding when I was about 15 years old by building my first IOS-app with XCode.
-               I am currently enrolled in a double major in Computer Science and Engineering
-               and Applied Mathematics at the Eindhoven University of Technology.
+               Currently, I am enrolled in a double major in Computer Science and Engineering
+               and Applied Mathematics at the Eindhoven University of Technology, graduating class of 2023. Prior to my currecent bachelor program, I also did a semester abroad at Providence College, Rhode Island, as a division 1 student-athlete.
               </p>
               <p className="about-wrapper__info-text">
-                I have built some personal projects to develop my skills, but I have also 
-                helped local companies to improve their web applications and online presence. You can find a collection of the projects I
-                have built down below. If you want to contact me click the button!
+                This website is mainly build to showcase my projects, skills and development, to capture my hobby. An exhibtion of my ability to solve problems and creativeness. Feel free to contact me! 
               </p>
               <span className="d-flex mt-3 btn-wrap">
                 <a className="cta-btn cta-btn--resume" href="#contact">

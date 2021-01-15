@@ -30,7 +30,7 @@ const ProjectList = () => {
 	        {[
 	        	{
 					title: 'E-commerce webshop',
-				 	text: 'The goal of this project was to master React. This React webshop is built using React-Router, Hooks, Redux and Redux-Saga and integrates Firebase and the Stripe-API for the backend. Next to this I used styled-components, React Suspence and React Lazy and I transformed the application into a PWA. During the building process I also learned about GraphQl, Apollo and the ContextAPI.',
+				 	text: 'The goal of this project was to master React. This React webshop is built using React-Router, Hooks, Redux and Redux-Saga and integrates Firebase and the Stripe-API for the backend. Next to this I used styled-components, React Suspense and React Lazy and I transformed the application into a PWA. During the building process I also learned about GraphQl, Apollo and the ContextAPI.',
 				 	image: Ecommerce,
 				 	live: 'https://ecomwebshop.herokuapp.com',
 				 	code: 'https://github.com/LisaVerhoeven/e-commerce'
@@ -51,7 +51,7 @@ const ProjectList = () => {
 				},
 				{
 					title: 'Quote Generator',
-					text: 'Going back to the basics and stepping away from React to focus a bit more on the core concepts of Html, Css and Javascript.',
+					text: 'A simple quote generator using an API and a function to share your quote on Twitter. With this project I went back to the basics and stepping away from React to focus a bit more on the core concepts of HTML, CSS and Javascript.',
 					image: QuoteGenerator,
 					live: 'https://lisaverhoeven.github.io/quote-generator/',
 					code: 'https://github.com/LisaVerhoeven/quote-generator'
